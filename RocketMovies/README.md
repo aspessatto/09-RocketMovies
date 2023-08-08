@@ -1,6 +1,6 @@
 # RocketMovies
 
-Projeto de aplicação front-end para filmes desenvolvida no curso Explorer do curso da  RocketSeat
+Projeto de aplicação front-end para filmes desenvolvida no curso Explorer da RocketSeat
 
 ## Stack utilizada
 
