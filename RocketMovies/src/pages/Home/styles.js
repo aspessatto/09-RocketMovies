@@ -17,16 +17,20 @@ export const Content = styled.div`
   grid-area: content;
   overflow-y: auto;
 
-  > div:first-child {
-
+  > .section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     margin-bottom: 40px;
 
     h1 {
       font-weight: 400;
       font-size: 32px;
+      width: 190px;
+    }
+
+    div {
+      width: 800px;
     }
   }
 `;

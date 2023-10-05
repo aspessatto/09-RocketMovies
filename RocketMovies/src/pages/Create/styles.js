@@ -20,13 +20,15 @@ export const Form = styled.form`
   padding: 40px 114px 85px;
 
   > header {
-    a {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      text-decoration: none;
-      color: ${({ theme }) => theme.COLORS.PINK};
-    }
+      button {
+        font-size: 16px;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        text-decoration: none;
+        color: ${({ theme }) => theme.COLORS.PINK};
+      }
   }
  
   > div:nth-child(2) {

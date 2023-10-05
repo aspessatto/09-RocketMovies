@@ -13,12 +13,12 @@ export const Container = styled.div`
   > main {
     grid-area: content;
     overflow-y: auto;
-    padding: 40px 0;
+    padding: 40px 156px 0;
   }
 `;
 
 export const Content = styled.div`
-  padding: 0 124px 156px;
+  padding-bottom: 156px;
   margin: 0 auto;
 
   > div:nth-child(2) {
